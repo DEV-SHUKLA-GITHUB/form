@@ -1,17 +1,19 @@
-body{
-  margin:0px;
-  padding:0px;
+body {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   display: flex;
   /* text-align: center; */
   justify-content: center;
 }
-.container{
+
+.container {
   width: 30rem;
   height: 20rem;
   border: 2px solid black;
 }
-.header{
+
+.header {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -19,20 +21,51 @@ body{
   display: flex;
   justify-content: space-between;
 }
-.icon{
+
+.icon {
   width: 1.5rem;
   height: auto;
 }
-.heading{
+
+.heading {
   margin: 0;
   padding: 0;
 }
-.input{
+
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Delete {
+  width: 2rem;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.save {
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(150, 228, 141);
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input {
   margin-top: 1rem;
   margin-left: 1rem;
   width: 60%;
   height: 2rem;
 }
-.closedContainer{
+
+.closedContainer {
   height: 2rem;
 }
