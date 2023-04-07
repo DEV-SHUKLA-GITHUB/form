@@ -42,6 +42,9 @@ body {
   height: auto;
   margin-right: 2rem;
 }
+.buttons{
+  display: flex;
+}
 
 .save {
   width: 5rem;
@@ -58,7 +61,15 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
+.saved{
+  border: 2px solid black;
+}
+.delete{
+  margin-top: 0;
+}
+.savedProject{
+  display: flex;
+}
 .input {
   margin-top: 1rem;
   margin-left: 1rem;
